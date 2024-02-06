@@ -1,0 +1,102 @@
+body
+{
+    text-align: center;
+    background: linear-gradient(blueviolet,goldenrod, aliceblue );
+    padding-top: 50px;
+
+
+
+
+}
+
+img
+{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: goldenrod;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 20px aliceblue;
+
+
+}
+
+h1
+{
+    font-size: 80px;
+    letter-spacing: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+p
+{
+    min-width: 400px;
+    height: 800px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aliceblue;
+    word-spacing: 3px;
+
+
+}
+ #button1
+ {
+    float: right;
+    color: blueviolet;
+    background-color: goldenrod;
+    font-size: 25px;
+    padding: 20px;
+    font-style: italic;
+    font-weight: bold;
+
+
+ }
+
+ #Menu
+ {
+    float:left;
+    color: blueviolet;
+    background-color: goldenrod;
+    font-size: 25px;
+    padding: 20px;
+    font-style: italic;
+    font-weight: bold;
+
+ }
+
+ #Next
+ {
+    float:right;
+    color: blueviolet;
+    background-color: goldenrod;
+    font-size: 25px;
+    padding: 20px;
+    font-style: italic;
+    font-weight: bold;
+
+ }
+
+
+ a
+ {
+    font-size: 35px;
+    text-decoration: underline;
+    color:red ;
+    font-weight:bold;
+    letter-spacing: 3px;
+    cursor:pointer;
+ }
+
+ a:hover
+ {
+    color: black;
+    font-size: 40px;
+    text-decoration: line-through;
+    letter-spacing: 6px;
+
+ }
+ 

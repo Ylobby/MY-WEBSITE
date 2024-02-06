@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background:linear-gradient(rosybrown, red) ;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: R;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: gray;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Hi, I am Ethan</h1>
+  <p>Here is where I talk about what I <b>like</b> </p>
+</div>
+
+<div class="navbar">
+  <a href="index.html" class="active">Home</a>
+  <a href="https://www.youtube.com/watch?v=AwwbhhjQ9Xk&pp=ygULbWF6ZSBydW5uZXI%3D" target="_blank">Maze Runner Trailer</a>
+  <a href="https://www.youtube.com/watch?v=T2tHzbaFh4Q&pp=ygUMY2FuYWRhIGZhY3Rz" target="_blank">Know More About Canada</a>
+  <a href="https://www.youtube.com/channel/UCN3pk5gr_ToO5hvdipExPWA" class="right" target="_blank">Check Out My Youtube Channel</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <img src="Person_icon_BLACK-01.svg.png" width="100" height="100">
+    <p>I like to play games and do code.</p>
+    <h3>My favorite show is Ninjago</h3>
+    <p><b>I live in Canada</b></p>
+    <img src="8007274-northern-lights-over-yellowknife.webp" width="400" height="200">
+    <br>
+    <img src="CNtower.webp" width="400" height="200">
+    <br>
+    <img src="NiagaraFalls.jpg" width="400" height="200">
+
+  </div>
+  <div class="main">
+    <h2>About My Hobbies</h2>
+    <h5>2024-01-30</h5>
+    <img src="MAzeRunner1.jpg" width="250" height="250">
+    <img src="MazeRunner2.jpg" width="250" height="250">
+    <img src="MazeRunner3jpg.jpg" width="250" height="250">
+    <img src="MazeRunner4.webp" width="250" height="250">
+
+    <p>I Love to read.</p>
+    <p>My Favorite book and book series is the Maze Runner</p>
+    <br>
+    <h2>My Music Taste</h2>
+    <h5>2024-01-30</h5>
+    <img src="Eminem_Rap_God.png" width="250" height="250">
+    <img src="RapGodCover.jpg" width="250" height="250">
+    <img src="LoseYourself.jpg" width="250" height="250">
+    <img src="8mile.jpg" width="250" height="250">
+
+    <p>I like music.</p>
+    <p>My favorite songs are Rap God & Lose Yourself</p>
+  </div>
+</div>
+
+
+
+</body>
+</html>
